@@ -4,6 +4,10 @@ header {
     background-color: #1abc9c;
 }
 
+header img {
+    width: 250px;
+}
+
 #about-us {
     background-color: #1abc9c;
 }

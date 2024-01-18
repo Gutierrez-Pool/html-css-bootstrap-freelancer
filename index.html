@@ -12,137 +12,232 @@
     <!-- Personal style -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Bootstrap Freelancer</title>
+
 </head>
 
 <body class="pt-5">
 
-        <nav class="navbar navbar-expand-md bg-dark position-fixed w-100 top-0 start-0" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md position-fixed w-100 top-0 start-0 text-uppercase fw-bold" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Portfoglio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbo -->
+    <header id="jumbo" class="text-white text-center pt-5 pb-3">
+        <div class="container text-uppercase">
+            <img src="img/avatar.svg" class="img-fluid pb-4" alt="">
+
+            <h1 class="">Start Bootstrap</h1>
+
+            <div class="struttura-titolo col-3 mx-auto pb-2">
+                <div class="separator row align-items-center justify-content-center">
+                    <div class="col-5 col-lg-4">
+                        <hr class="border-2 opacity-100 rounded">
+                    </div>
+                    <div class="col-2 p-0 fs-2">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="col-5 col-lg-4">
+                        <hr class="border-2 opacity-100 rounded">
+                    </div>
                 </div>
             </div>
-        </nav>
 
-            <header class="text-center py-3">
-                <div class="container">
-                    <div class="row justify-content-center text-light">
-                        <div class="">
-                            <img src="img/avatar.svg" class="img-fluid" alt="">
+            <p>
+                Graphic Artist - Web Designer - Illustrator
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Portfoglio -->
+        <section class="container py-5 text-uppercase text-center">
+            <h2 class="">Portfoglio</h2>
+
+            <div class="struttura-titolo col-3 mx-auto pb-3">
+                <div class="separator row align-items-center justify-content-center">
+                    <div class="col-5 col-lg-4">
+                        <hr class="border-2 opacity-100 rounded">
+                    </div>
+                    <div class="col-2 p-0 fs-2">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="col-5 col-lg-4">
+                        <hr class="border-2 opacity-100 rounded">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img src="img/cabin.png" class="img-fluid rounded-3" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img src="img/cake.png" class="img-fluid rounded-3" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img src="img/circus.png" class="img-fluid rounded-3" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img src="img/game.png" class="img-fluid rounded-3" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img src="img/safe.png" class="img-fluid rounded-3" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img src="img/submarine.png" class="img-fluid rounded-3" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <div class="container py-5 text-white">
+                <h2 class="text-center text-uppercase">About</h2>
+
+                <div class="struttura-titolo col-3 mx-auto pb-3">
+                    <div class="separator row align-items-center justify-content-center">
+                        <div class="col-5 col-lg-4">
+                            <hr class="border-2 opacity-100 rounded">
                         </div>
-                        <div class="col-12">
-                            <h1>START BOOTSTRAP</h1>
+                        <div class="col-2 p-0 fs-2">
+                            <i class="fa-solid fa-star"></i>
                         </div>
-                        <div class="col-12">
-                            <p>
-                                GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATIOR
-                            </p>
+                        <div class="col-5 col-lg-4">
+                            <hr class="border-2 opacity-100 rounded">
                         </div>
                     </div>
                 </div>
-            </header>
+
+                <div class="row justify-content-center">
+                    <p class="col-7 col-sm-5 col-md-5">
+                        Freelance is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                    </p>
+
+                    <p class="col-7 col-sm-5 col-md-5">
+                        Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! 
+                    </p>
+                    <div class="row justify-content-center pt-4">
+                        <button type="button" class="btn btn-outline-light col-3 fw-bold">
+                            <i class="fa-solid fa-download"></i> Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section id="contact-me">
+            <div class="container py-5">
+                <h2 class="text-center text-uppercase">Contact me</h2>
+
+                <div class="struttura-titolo col-3 mx-auto pb-3">
+                    <div class="separator row align-items-center justify-content-center">
+                        <div class="col-5 col-lg-4">
+                            <hr class="border-2 opacity-100 rounded">
+                        </div>
+                        <div class="col-2 p-0 fs-2">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="col-5 col-lg-4">
+                            <hr class="border-2 opacity-100 rounded">
+                        </div>
+                    </div>
+                </div>
+
+                <form class="col-6 col-sm-10 mx-auto">
+                    <div class="mb-3">
+                        <input type="text" class="form-control px-0" id="inputName" aria-describedby="emailHelp" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control px-0" id="inputEmail" aria-describedby="emailHelp" placeholder="Email Address">
+                    </div>
+                    <div class="mb-3">
+                        <input type="number" class="form-control px-0" id="inputPhoneNumber" aria-describedby="emailHelp" placeholder="Phone Number">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control px-0" id="inputMessage" rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn text-white">Send</button>
+                </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="top_footer text-white">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 text-center py-5">
+                <div class="col pb-4">
+                    <div class="text-uppercase fs-5 mb-2">
+                        Location
+                    </div>
+                    <p>
+                        2215 John Daniel Drive Clark, MO 54243
+                    </p>
+                </div>
     
-            <main>
-                <section class="container py-5">
-                    <div class="col-12">
-                        <h2 class="text-center">PORTFOGLIO</h2>
+                <div class="col pb-4">
+                    <div class="text-uppercase fs-5 mb-2">
+                        Around the web
                     </div>
-                    <div class="row g-4">
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <img src="img/cabin.png" class="img-fluid rounded-3" alt="">
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <img src="img/cake.png" class="img-fluid rounded-3" alt="">
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <img src="img/circus.png" class="img-fluid rounded-3" alt="">
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <img src="img/game.png" class="img-fluid rounded-3" alt="">
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <img src="img/safe.png" class="img-fluid rounded-3" alt="">
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4">
-                            <img src="img/submarine.png" class="img-fluid rounded-3" alt="">
-                        </div>
+                    <div class="d-flex justify-content-center gap-3">
+                        <button type="button" class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-facebook-f"></i></button>
+                        <button type="button" class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-google-plus-g"></i></button>
+                        <button type="button" class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-twitter"></i></button>
+                        <button type="button" class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-linkedin-in"></i></button>
                     </div>
-                </section>
-
-                <section id="about-us">
-                    <div class="container py-5">
-                        <div class="row justify-content-center text-light">
-                            <h2 class="text-center">ABOUT</h2>
-                            <p class="col-7 col-sm-5 col-md-5">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quasi nisi asperiores iure soluta labore fugiat. Vel eius dolorem illum, autem odit quas perferendis, provident facere delectus nesciunt dolorum eveniet.
-                                Aperiam adipisci consectetur repellendus cumque omnis enim eveniet ipsum quam voluptatem blanditiis? Architecto qui vel sint optio amet cumque! Qui dolorum consectetur quo est quam, incidunt officiis natus voluptates et.
-                            </p>
+                </div>
     
-                            <p class="col-7 col-sm-5 col-md-5">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate consectetur quae hic optio praesentium? At consequuntur, soluta ad, maiores asperiores, cum dolorum aliquid hic eius recusandae dicta reprehenderit quos ducimus.
-                                Vitae provident libero velit quibusdam quo. Quisquam doloribus praesentium id minus veniam aperiam, earum natus dolores voluptatum vitae! Earum quidem quia facilis ipsum molestias impedit? Laborum impedit omnis rem maxime.
-                            </p>
-                            <div class="row justify-content-center">
-                                <button type="button" class="btn btn-outline-light col-4 ">
-                                    button
-                                </button>
-                            </div>
-                        </div>
+                <div class="col">
+                    <div class="text-uppercase fs-5 mb-2">
+                        About Freelancer
                     </div>
-                </section>
-            </main>
-
-            <footer class="text-center">
-                <div class="top_footer text-light">
-                    <div class="container py-4">
-                        <div class="row justify-content-center">
-                            <div class="col-11 col-sm-4">
-                                indirizzo
-                            </div>
-        
-                            <div class="col-11 col-sm-4">
-                                socials
-                            </div>
-        
-                            <div class="col-11 col-sm-4">
-                                about
-                            </div>
-                        </div>
-                    </div>
+                    <p>
+                        Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.
+                    </p>
                 </div>
+            </div> 
+    
+        </div>
+        <div class="bottom_footer py-5 text-center">
+            <span>
+                Copyright © Your Website 2019
+            </span>
+        </div>
+    </footer>
 
-                <div class="bottom_footer text-light">
-                    <div class="container">
-                        <div class="row justify-content-center py-3">
-                            <span>
-                                Copyright Your Website 2019
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </footer>
 
-<!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
-</html3
+</html>

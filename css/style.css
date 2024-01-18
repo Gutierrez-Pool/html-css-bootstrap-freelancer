@@ -1,5 +1,9 @@
+nav {
+    background-color: #2c3e50;
+}
 
 
+/* Jumbo */
 header {
     background-color: #1abc9c;
 }
@@ -8,10 +12,37 @@ header img {
     width: 250px;
 }
 
-#about-us {
+header .col-2 {
+    padding: 0;
+}
+/* Fine jumbo */
+
+
+
+/* About */
+#about {
     background-color: #1abc9c;
 }
+/* Fine About */
 
+
+
+/* Contact */
+form{
+    --bs-border-width: 0px;
+}
+form div {
+    border-bottom: 1px solid gray;
+}
+
+form .btn {
+    background-color: #1abc9c;
+}
+/* Fine contact */
+
+
+
+/* Footer */
 .top_footer {
     background-color: #3a546d;
 }
@@ -19,3 +50,4 @@ header img {
 .bottom_footer {
     background-color: #2c3e50;
 }
+/* Fine footer */
